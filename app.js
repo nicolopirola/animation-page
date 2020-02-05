@@ -19,6 +19,6 @@ hero,
     { x:"-100%" }, 
     { x: "0%", ease: Power2.easeInOut }, "-=1.2") //-= e n secondi, se voglio far partire prima una data animazione
 
-    .fromTo(logo, 0.5, { opacity:0, x:30 }, { opacity: 1, x: 0 }, "-=0.5")
-    .fromTo(hamburger, 0.5, { opacity:0, x:30 }, { opacity: 1, x: 0 }, "-=0.5")
-    .fromTo(headline, 0.5, { opacity:0, x:30 }, { opacity: 1, x: 0 }, "-=0.5");
+.fromTo(logo, 0.5, { opacity:0, x:30 }, { opacity: 1, x: 0 }, "-=0.5")
+.fromTo(hamburger, 0.5, { opacity:0, x:30 }, { opacity: 1, x: 0 }, "-=0.5")
+.fromTo(headline, 0.5, { opacity:0, x:30 }, { opacity: 1, x: 0 }, "-=0.5");
